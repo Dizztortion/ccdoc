@@ -1,5 +1,5 @@
 # $userRoles
-returns the current user roles or from the id
+returns the current user's roles or from the id
 
 #### Usage: 
 `$userRoles` or `$userRoles[userID;ids/mentions/names (optional);separator (optional)]`
@@ -15,11 +15,12 @@ returns the current user roles or from the id
 </discord-messages>
 
 ::: tip Related Functions
-[$hasRoles](../Member/hasRoles.md), to check if the user has roles
+[$hasRoles](../Member/hasRoles.md) to check if the user has roles
 :::
 
-::: info Member must be cached!
-If you use the main bot the member must be cached to get valid results.You can ignore the message,if you use custom bot!
+::: danger Member must be cached!
+If you use the main bot the member must be cached to get valid results.
+You can ignore the message if you use custom bot!
 :::
 
 ##### Function difficulty: <Badge type="tip" text="Easy" vertical="middle" /> 

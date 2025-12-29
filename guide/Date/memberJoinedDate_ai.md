@@ -11,7 +11,7 @@ Retrieves the date and time a member joined the server. You can specify a user I
 
 <br/>
 
-```html
+
 <discord-messages>
 	<discord-message :bot="false" role-color="#ffcc9a" author="Member">
 		!!exec $memberJoinedDate[725721249652670555;date]
@@ -20,11 +20,11 @@ Retrieves the date and time a member joined the server. You can specify a user I
 		Sat Oct 31 2020
 	</discord-message>
 </discord-messages>
-```
+
 
 <br/>
 
-```html
+
 <discord-messages>
 	<discord-message :bot="false" role-color="#ffcc9a" author="Member">
 		!!exec $memberJoinedDate[725721249652670555]
@@ -33,7 +33,7 @@ Retrieves the date and time a member joined the server. You can specify a user I
 		Sat Oct 31 2020 10:55:30 GMT+0000 (Coordinated Universal Time)
 	</discord-message>
 </discord-messages>
-```
+
 
 ::: tip Timezone Information
 Date functions default to UTC timezone. You can customize the timezone by following the instructions [here](./timezone.md).
